@@ -24,12 +24,6 @@ Le script contient deux fonctions principales :
     Get-UserEmails: Pour récupérer l'adresse e-mail principale et les adresses proxy d'un utilisateur.
     Add-ProxyAddresses: Pour ajouter des adresses proxy à un utilisateur.
 
-Récupération des Emails d'un Utilisateur
-
-Pour récupérer les emails d'un utilisateur, utilisez la fonction Get-UserEmails avec le nom d'utilisateur spécifié :
-
-powershell
-
 # Remplacez 'nomUtilisateur' par le sAMAccountName de l'utilisateur désiré
 Get-UserEmails -username "nomUtilisateur"
 
