@@ -56,7 +56,7 @@ function Add-ProxyAddresses {
 
 # ajout user, en general prenom.nom pour le SAM + adresses proxy de l'user
 $username = "SAM"
-$proxyAddressesToAdd = @("test.test@sirailgroup.com", "teset.test@sirailgroup.com") # Juste les emails sans le préfixe smtp:
+$proxyAddressesToAdd = @("test.test@testgrp.com", "teset.test@testgrp.com") # Juste les emails sans le préfixe smtp:
 
 # Ajout new adresses proxy
 Add-ProxyAddresses -username $username -proxyAddresses $proxyAddressesToAdd
