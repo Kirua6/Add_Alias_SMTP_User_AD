@@ -31,14 +31,12 @@ Ajout d'Adresses Proxy à un Utilisateur
 
 Pour ajouter des adresses proxy à un utilisateur, utilisez la fonction Add-ProxyAddresses avec le nom d'utilisateur et la liste des nouvelles adresses proxy :
 
-powershell
-
 # Remplacez 'nomUtilisateur' et ajoutez les adresses dans le tableau ci-dessous
 $username = "nomUtilisateur"
 $proxyAddressesToAdd = @("test.test@sirailgroup.com", "test2.test2@sirailgroup.com")
 Add-ProxyAddresses -username $username -proxyAddresses $proxyAddressesToAdd
 
-Contributions
+# Contributions
 
 Les contributions à ce script sont les bienvenues. Pour contribuer, veuillez créer une issue ou soumettre une pull request sur GitHub.
 Licence
