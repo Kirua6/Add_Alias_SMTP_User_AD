@@ -17,7 +17,7 @@ Avant de commencer à utiliser ce script, assurez-vous que les conditions suivan
    ```powershell
    Import-Module ActiveDirectory
 
-Utilisation
+3. **Utilisation**
 
 Le script contient deux fonctions principales :
 
