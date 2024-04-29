@@ -33,7 +33,7 @@ Pour ajouter des adresses proxy à un utilisateur, utilisez la fonction Add-Prox
 
 # Remplacez 'nomUtilisateur' et ajoutez les adresses dans le tableau ci-dessous
 $username = "nomUtilisateur"
-$proxyAddressesToAdd = @("test.test@sirailgroup.com", "test2.test2@sirailgroup.com")
+$proxyAddressesToAdd = @("test.test@testgrp.com", "test2.test2@testgrp.com")
 Add-ProxyAddresses -username $username -proxyAddresses $proxyAddressesToAdd
 
 # Contributions
