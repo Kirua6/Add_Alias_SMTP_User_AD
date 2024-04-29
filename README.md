@@ -1,6 +1,3 @@
-# Add_Alias_SMTP_User_AD
-Permet d'ajouter des alias de messagerie sur un utilisateur Active Directory
-
 # Active Directory Email Management Script
 
 Ce script PowerShell permet de gérer les adresses e-mail des utilisateurs dans un environnement Active Directory. Il fournit des fonctionnalités pour récupérer les adresses e-mail principales et les adresses proxy, ainsi que pour ajouter de nouvelles adresses proxy à un utilisateur spécifique.
